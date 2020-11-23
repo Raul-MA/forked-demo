@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
+import ForkNewComponent from './ForkNewComponent/ForkNewComponent'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <ForkNewComponent />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          El texto debe de cambiar
         </p>
         <a
           className="App-link"
@@ -19,7 +21,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
